@@ -16,7 +16,7 @@ sys.setdefaultencoding('utf-8')
 
 @app.route("/h")
 def hello():
-    return "Hello World!"
+    return render_template("h.html")
 
 
 @app.route("/plugin_config")
