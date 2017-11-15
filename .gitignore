@@ -1,0 +1,12 @@
+*.out
+*.pyc
+
+.DS_Store
+tmp
+flask
+static/uploads/
+app/static/uploads/
+.vscode
+log
+dump.rdb
+redis_db.ini
